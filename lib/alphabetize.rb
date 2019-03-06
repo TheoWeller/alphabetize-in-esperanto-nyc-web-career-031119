@@ -1,3 +1,6 @@
+require 'pry'
 def alphabetize(arr)
-  # code here
+  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  array.sort_by {|string|ESPERANTO_ALPHABET}
+  binding.pry
 end
