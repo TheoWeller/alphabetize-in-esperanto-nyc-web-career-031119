@@ -4,4 +4,3 @@ def alphabetize(arr)
   arr.sort_by {|string|ESPERANTO_ALPHABET}
   #binding.pry
 end
-end
